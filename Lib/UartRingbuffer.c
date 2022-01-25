@@ -12,9 +12,9 @@
 
 /**** define the UART you are using  ****/
 
-UART_HandleTypeDef huart2;
+extern UART_HandleTypeDef huart1;
 
-#define uart &huart2
+#define uart &huart1
 
 #define TIMEOUT_DEF 500  // 500ms timeout
 uint16_t timeout;
